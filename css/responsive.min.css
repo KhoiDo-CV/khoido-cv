@@ -1,0 +1,146 @@
+/*---------------------Máy tính bàn-----------------------------*/
+@media only screen and (min-width : 1200px){
+
+}
+@media only screen and (min-width : 1200px) and (max-width : 1400px){
+
+}
+/*---------------------Máy tính bảng ipad pro ngang-----------------------------*/
+@media only screen and (max-width : 1366px){
+	
+}
+/*---------------------Máy tính bảng ngang-----------------------------*/
+@media only screen and (min-width : 992px) and (max-width : 1200px){
+	
+}
+/*----------------------Điện thoại di động-------------------------------*/
+@media only screen and (max-width : 767px){
+	body {
+		background-color: #fff;
+	}
+	.fixed-left-contact, .fixed-right-socials, .right-br, .left-br {
+		display: none;
+	}
+	.sidebarWrapper {
+		position: relative;
+	}
+	.toggle-btn {
+		visibility: visible;
+	}
+	.menu {
+		position: relative;
+	}
+	.nav {
+		background: #141414 none repeat scroll 0 0;
+		box-shadow: 0 3px 10px 3px rgba(0, 0, 0, 0.3);
+		left: 0;
+		opacity: 0;
+		position: absolute;
+		top: 60px;
+		transform: translateY(-10px);
+		transition: all 0.3s ease-out 0s;
+		visibility: hidden;
+		width: 100%;
+		z-index: 997;
+	}
+	.show-nav {
+		opacity: 1;
+		transform: translateY(0px);
+		visibility: visible;
+	}
+	.stickyNav {
+		left: 30px;
+		position: fixed;
+		right: 30px;
+		width: auto;
+	}
+	.about-content p, .service-box p, .popup-box p {
+		text-align: justify;
+	}
+	.section-title {
+		margin-bottom: 30px;
+	}
+	.section-title span {
+		font: 700 13px "Quicksand", sans-serif;
+	}
+	.about-background, .services-background, .skill-outer:last-child {
+		margin: 0;
+	}
+	.skill-outer {
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	.services-background {
+		padding: 30px 0 0;
+	}
+	.service-box div:last-child {
+		padding-left: 0px;
+	}
+	.service-box {
+		width: 100%;
+	}
+	.service-box:last-child {
+		margin: 0;
+	}
+	.portfolio-background {
+		padding: 50px 0 0;
+	}
+	.portfolio-filter ul {
+		margin: -10px 0;
+	}
+	.portfolio-filter ul li {
+		margin: 10px 0 10px 0;
+	}
+	.resume-background {
+		padding: 50px 0 0;
+	}
+	.resume-box div:first-child { 
+		font-size: 29px;
+		height: 75px;
+		width: 75px;
+	}
+	.resume-box div:last-child {
+		padding-left: 100px;
+	}	
+	.blog-background {
+		padding: 50px 0 0;
+	}
+	.blog-dis{
+		position: relative;
+		margin-bottom: 30px;
+	}
+	.testimonial-background {
+		padding: 20px 0 0;
+	}
+	.testimonial .testimonial_content_inner::before {
+		font-size: 72px;
+	}
+	.testimonial_content_inner p, .blog-dis p, .resume-content p{
+		text-align: justify;
+	}
+	.contact-background {
+		padding: 50px 0 0;
+	}
+	.contact-form {
+		margin-bottom: 50px;
+	}
+	.contact-form-botton{
+		margin-top: 60px;
+	}
+	.blog-post.row, .copyright .row {
+		margin-left: -15px !important;
+	}
+	.text-left, .text-right{
+		text-align: center !important
+	}
+}
+/*---------------------Máy tính bảng dọc--------------------------------*/
+@media only screen and (min-width : 768px) and (max-width : 992px){
+	#boxscroll{
+		padding-right: 15px;
+	}
+	.sidebar .nav li {
+		font: 9px "Quicksand", sans-serif;
+		padding: 5px 0;
+	}
+}
